@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/page_fragment_btn"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="placeholder text"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/gray_color"
+        android:textSize="15sp"
+        app:backgroundTint="@color/white"
+        app:icon="@drawable/page_list"
+        app:iconTint="@null"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</LinearLayout>
